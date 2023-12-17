@@ -1,0 +1,5 @@
+story in isolation and documentation
+
+
+npx -p @storybook/cli sb init
+npm run storybook

@@ -1,0 +1,25 @@
+@media only screen and (max-width: 550px) {
+  .hide-on-mobile {
+    display: none; /* Hide content on mobile */
+  }
+  .burger-icon{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .burger-icon {
+    display: none;
+  }
+}
+
+.navbar-buttons {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  align-items: center;
+  margin-left: 5px;
+}

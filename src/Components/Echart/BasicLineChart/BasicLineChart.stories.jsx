@@ -1,11 +1,12 @@
 import BasicLineChart from "./BasicLineChart";
 
 export default {
-  title: "Example/LineChart",
+  title: "Chart/EChart/LineChart",
   component: BasicLineChart,
+  tags: ['autodocs'],
   argTypes: {
     darkMode: {
-      control: { type: 'boolean', name: 'Dark Mode' },
+      control: { type: 'boolean' },
     },
     texture:{
       control:{type:'boolean',name: 'Smooth' }

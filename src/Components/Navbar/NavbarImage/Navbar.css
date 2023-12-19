@@ -1,0 +1,56 @@
+@media (max-width: 320px) {
+    .mobile {
+        display: flex;
+    }
+    .desktop {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 321px) {
+    .mobile {
+        display: none;
+    }
+    .desktop {
+        display: flex;
+    }
+    
+}
+
+.list-dialog {
+    width: 100%;
+    list-style: none;
+    font-size: larger;
+    padding: 10px;
+}
+
+.list-dialog a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+}
+
+.list-dialog a span {
+    margin-right: 20px;
+}
+
+.bp5-dark a {
+    color: white;
+}
+
+.bp5-dark a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.bp5-text-black {
+    color: black;
+}
+
+.bp5-text-black:hover {
+    background-color: gray;
+    color: white;
+}

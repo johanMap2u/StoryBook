@@ -33,7 +33,7 @@ Button.propTypes = {
    */
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   /**
-   * Button contents
+   * Button contentsgg
    */
   label: PropTypes.string.isRequired,
   /**
